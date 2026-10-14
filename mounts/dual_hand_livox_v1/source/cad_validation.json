@@ -1,0 +1,110 @@
+{
+  "D435i_adapter": {
+    "valid_brep": true,
+    "solid_count": 1,
+    "volume_mm3": 72520.67051636791,
+    "bounds_mm": [
+      18.10718399999999,
+      127.218414,
+      154.473588,
+      228.473588,
+      -43.0,
+      8.0
+    ],
+    "dimensions_mm": [
+      109.11123,
+      74.0,
+      51.0
+    ]
+  },
+  "antirotation_stop_print_2": {
+    "valid_brep": true,
+    "solid_count": 1,
+    "volume_mm3": 722.083188924502,
+    "bounds_mm": [
+      0.0,
+      18.0,
+      -5.0,
+      5.0,
+      0.0,
+      8.0
+    ],
+    "dimensions_mm": [
+      18.0,
+      10.0,
+      8.0
+    ]
+  },
+  "camera_contact_ring_2mm": {
+    "valid_brep": true,
+    "solid_count": 1,
+    "volume_mm3": 54.60088031939063,
+    "bounds_mm": [
+      -4.5,
+      4.5,
+      -4.5,
+      4.5,
+      0.0,
+      2.0
+    ],
+    "dimensions_mm": [
+      9.0,
+      9.0,
+      2.0
+    ]
+  },
+  "screw_head_spacer_1mm": {
+    "valid_brep": true,
+    "solid_count": 1,
+    "volume_mm3": 76.78052445373456,
+    "bounds_mm": [
+      -6.0,
+      6.0,
+      -6.0,
+      6.0,
+      0.0,
+      1.0
+    ],
+    "dimensions_mm": [
+      12.0,
+      12.0,
+      1.0
+    ]
+  },
+  "screw_head_spacer_2mm": {
+    "valid_brep": true,
+    "solid_count": 1,
+    "volume_mm3": 153.56104890746911,
+    "bounds_mm": [
+      -6.0,
+      6.0,
+      -6.0,
+      6.0,
+      0.0,
+      2.0
+    ],
+    "dimensions_mm": [
+      12.0,
+      12.0,
+      2.0
+    ]
+  },
+  "base_fit_coupon_optional": {
+    "valid_brep": true,
+    "solid_count": 1,
+    "volume_mm3": 5678.764126418952,
+    "bounds_mm": [
+      18.107184000000004,
+      96.11123,
+      158.473588,
+      224.473588,
+      0.0,
+      2.0
+    ],
+    "dimensions_mm": [
+      78.004046,
+      66.0,
+      2.0
+    ]
+  }
+}

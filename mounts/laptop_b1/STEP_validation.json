@@ -1,0 +1,37 @@
+{
+  "01_B_main_PROTOTYPE_x1.step": {
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 136580.34971103296
+  },
+  "02_pressure_shoe_x2.step": {
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 2097.501328919519
+  },
+  "03_optional_fit_coupon_x1.step": {
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 20321.53233973968
+  },
+  "B1_assembly_reference.step": {
+    "valid": true,
+    "solids": 20,
+    "volume_mm3": 206183.92585069276
+  },
+  "section_AA_clamp.step": {
+    "valid": true,
+    "solids": 2,
+    "volume_mm3": 586.8720404845292
+  },
+  "section_BB_camera.step": {
+    "valid": true,
+    "solids": 2,
+    "volume_mm3": 107.5264921866532
+  },
+  "section_CC_rail.step": {
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 96.00000000000135
+  }
+}

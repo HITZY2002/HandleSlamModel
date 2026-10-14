@@ -1,0 +1,84 @@
+{
+  "scope": "Rebuilt all three original CAD generators in separate copies with unchanged parameters. Curated export bytes were not replaced.",
+  "cadquery": "2.7.0",
+  "numpy": "2.3.5",
+  "designs": {
+    "dual_hand_livox_v1": [
+      {
+        "file": "D435i_adapter.stl",
+        "sha256": "85229e1dd62f0fd8ac1eb33a50dc4d1fad38441c0bcbced461a335569ac64be3",
+        "rebuilt_stl_byte_identical": true
+      },
+      {
+        "file": "antirotation_stop_print_2.stl",
+        "sha256": "fd0a6c8cefd014131ec23cf00dbc6811070dfd5b70ed9272b6fb726c9fd5dfc4",
+        "rebuilt_stl_byte_identical": true
+      },
+      {
+        "file": "base_fit_coupon_optional.stl",
+        "sha256": "aedbf5fe2a98b97d4297d80280bc1507758c92fea1a499f9a86b0cb0a7bd701a",
+        "rebuilt_stl_byte_identical": true
+      },
+      {
+        "file": "camera_contact_ring_2mm.stl",
+        "sha256": "548269a68a72af6f867dd8e883c029c88674869c3a84541e5d6ea4bcfe04ef5a",
+        "rebuilt_stl_byte_identical": true
+      },
+      {
+        "file": "screw_head_spacer_1mm.stl",
+        "sha256": "1af6368569f2c59f135258cfb4d6deddba9a100fd70ad1956b03fa7213fda8ac",
+        "rebuilt_stl_byte_identical": true
+      },
+      {
+        "file": "screw_head_spacer_2mm.stl",
+        "sha256": "f5b54b075cef258724fa08570e8912d05977cd0572cb660e4a0061a4e37b5753",
+        "rebuilt_stl_byte_identical": true
+      }
+    ],
+    "single_hand_spatial_v2": [
+      {
+        "file": "01_lateral_frame_x1.stl",
+        "sha256": "8d931936ba05acd078134cf1ddf0c7cce2c47da833f28da6787509ccaefcad11",
+        "rebuilt_stl_byte_identical": true
+      },
+      {
+        "file": "02_grip_x1.stl",
+        "sha256": "2ff3dfe674f4915953aa8ae7f34fa62f089a66170c302968f1d0b59fcbf3623d",
+        "rebuilt_stl_byte_identical": true
+      },
+      {
+        "file": "03_u_connector_x1.stl",
+        "sha256": "e7f6b8bdeb29cd7a00d1cd09edc5c0547dda268ec1fc732804b62e491ab79d35",
+        "rebuilt_stl_byte_identical": true
+      },
+      {
+        "file": "04_depth_fork_x1.stl",
+        "sha256": "bf148479b801d4ab24c6c4c1653b61cb37e68a9bce93ebe479831cb770af96b4",
+        "rebuilt_stl_byte_identical": true
+      },
+      {
+        "file": "05_adhesive_pad_x5.stl",
+        "sha256": "a943061c52dd7ada9084f6f9a963f72f21c29cccbcb9f9893084d696fc1ef86a",
+        "rebuilt_stl_byte_identical": true
+      }
+    ],
+    "laptop_b1": [
+      {
+        "file": "01_B_main_PROTOTYPE_x1.stl",
+        "sha256": "3beb8744e237758c018bd38d008bb37217e9cddd3638684e48f5caa87055b9b2",
+        "rebuilt_stl_byte_identical": true
+      },
+      {
+        "file": "02_pressure_shoe_x2.stl",
+        "sha256": "561148e7c879f975678107f6c620c1ae0e20576d3ea4aa120e88ee60c5eb130c",
+        "rebuilt_stl_byte_identical": true
+      },
+      {
+        "file": "03_optional_fit_coupon_x1.stl",
+        "sha256": "1dcae4ed1345b11b85f7b95ccb3710149e17c9ffe404491519787f53ba925668",
+        "rebuilt_stl_byte_identical": true
+      }
+    ]
+  },
+  "physical_tests_performed": false
+}

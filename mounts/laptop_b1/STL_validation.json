@@ -1,0 +1,41 @@
+{
+  "01_B_main_PROTOTYPE_x1.stl": {
+    "triangles": 20682,
+    "boundary_or_nonmanifold_edges": 0,
+    "degenerate_triangles": 0,
+    "inconsistent_edges": 0,
+    "signed_volume_mm3": 136592.1429432292,
+    "bounds_mm": [
+      153.5,
+      173.0,
+      134.0
+    ],
+    "sha256": "3beb8744e237758c018bd38d008bb37217e9cddd3638684e48f5caa87055b9b2"
+  },
+  "03_optional_fit_coupon_x1.stl": {
+    "triangles": 784,
+    "boundary_or_nonmanifold_edges": 0,
+    "degenerate_triangles": 0,
+    "inconsistent_edges": 0,
+    "signed_volume_mm3": 20321.565741582464,
+    "bounds_mm": [
+      34.0,
+      26.0,
+      46.0
+    ],
+    "sha256": "1dcae4ed1345b11b85f7b95ccb3710149e17c9ffe404491519787f53ba925668"
+  },
+  "02_pressure_shoe_x2.stl": {
+    "triangles": 740,
+    "boundary_or_nonmanifold_edges": 0,
+    "degenerate_triangles": 0,
+    "inconsistent_edges": 0,
+    "signed_volume_mm3": 2097.516797091692,
+    "bounds_mm": [
+      18.0,
+      24.0,
+      5.0
+    ],
+    "sha256": "561148e7c879f975678107f6c620c1ae0e20576d3ea4aa120e88ee60c5eb130c"
+  }
+}

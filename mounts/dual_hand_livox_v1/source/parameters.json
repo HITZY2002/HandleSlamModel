@@ -1,0 +1,41 @@
+{
+  "geometry_note": "Bracket is generated in canonical -X view, then mirrored across x=57.109207. Final camera faces +X.",
+  "mirror_plane_x": 57.109207,
+  "final_camera_screw_x": 113.318414,
+  "final_camera_glass_x": 128.218414,
+  "base_hole_x": [
+    24.107184,
+    90.11123
+  ],
+  "base_hole_y": [
+    164.473588,
+    218.473588
+  ],
+  "mount_top_z": 8.0,
+  "mount_thickness": 5.0,
+  "mount_clearance_d": 3.6,
+  "camera_y": 191.473588,
+  "camera_front_x": -14.0,
+  "camera_depth": 25.05,
+  "camera_bottom_z": -35.0,
+  "camera_height": 25.0,
+  "camera_width": 90.0,
+  "camera_screw_x_provisional": 0.9,
+  "camera_screw_slot_length": 14.8,
+  "camera_screw_slot_width": 6.8,
+  "shelf_bottom_z": -43.0,
+  "shelf_top_z": -37.0,
+  "air_gap": 2.0,
+  "shelf_x_min": -13.0,
+  "shelf_x_max": 41.0,
+  "width": 74.0,
+  "rear_wall_x_min": 35.0,
+  "rear_wall_x_max": 41.0,
+  "stop_screw_x": 22.0,
+  "stop_screw_y_offset": 25.0,
+  "stop_slot_length": 9.4,
+  "stop_slot_width": 3.4,
+  "pad_outer_d": 9.0,
+  "pad_inner_d": 6.8,
+  "pad_height": 2.0
+}

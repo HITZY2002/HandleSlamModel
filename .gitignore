@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+.venv/
+.DS_Store
+*.blend1
+render_meshes.json
+renders/
+# Local rebuild artifacts are not part of the curated release.
+mounts/dual_hand_livox_v1/source/assembly_meshes/
+mounts/single_hand_spatial_v2/STEP/assembly_reference_v2.step
+mounts/laptop_b1/STEP/B1_assembly_reference.step
+mounts/laptop_b1/STEP/section_*.step

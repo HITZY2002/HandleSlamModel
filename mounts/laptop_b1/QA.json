@@ -1,0 +1,316 @@
+{
+  "version": "B1 detailed design prototype",
+  "units": "mm",
+  "status": "Not an exact EMF-16 fit. Thickness adjustment is mechanical; clamp station/pitch changes require CAD regeneration and reprint.",
+  "params": {
+    "reference_laptop_width": 297.2,
+    "reference_laptop_depth": 218.4,
+    "reference_base_thickness": 12.0,
+    "reference_opening_angle_deg": 110.0,
+    "clamp_rear_y": 88.0,
+    "clamp_pitch": 72.0,
+    "clamp_width": 26.0,
+    "jaw_intrusion": 20.0,
+    "jaw_outer_x": 14.0,
+    "side_wall_inner_x": 4.0,
+    "upper_jaw_bottom_z": 2.0,
+    "upper_jaw_thickness": 6.0,
+    "lower_jaw_top_z": -30.0,
+    "lower_jaw_thickness": 8.0,
+    "pad_thickness": 2.0,
+    "contact_center_x": -10.0,
+    "contact_width_x": 18.0,
+    "contact_length_y": 24.0,
+    "shoe_thickness": 5.0,
+    "shoe_socket_d": 5.8,
+    "shoe_socket_depth": 2.0,
+    "M5_clearance_d": 5.6,
+    "nut_pocket_af": 8.5,
+    "nut_pocket_depth": 4.3,
+    "nut_af_nominal": 8.0,
+    "nut_thickness_nominal": 4.0,
+    "M5_under_knob_length": 30.0,
+    "main_spine_width": 10.0,
+    "main_spine_height": 12.0,
+    "mast_y": 64.0,
+    "camera_center_x": 70.0,
+    "camera_rear_y": 0.0,
+    "camera_hole_z": 36.0,
+    "camera_envelope_center_z": 36.075,
+    "camera_hole_spacing": 45.0,
+    "camera_boss_thickness": 1.0,
+    "camera_plate_thickness": 6.0,
+    "camera_clearance_d": 3.4,
+    "marker_seat_d": 25.0,
+    "marker_seat_thickness": 3.0,
+    "markers": [
+      [
+        22,
+        24,
+        56
+      ],
+      [
+        121,
+        19,
+        69
+      ],
+      [
+        27,
+        106,
+        79
+      ],
+      [
+        117,
+        102,
+        50
+      ],
+      [
+        72,
+        64,
+        94
+      ]
+    ],
+    "marker_reference_radius": 7.0,
+    "marker_reference_center_offset": 9.0,
+    "reference_body_thickness_range": [
+      8.0,
+      22.0
+    ],
+    "note": "ALL laptop geometry is illustrative. Base thickness 12 mm is not a measured EMF-16 dimension. Clamp station/contact footprints, lid angle, vents and ports require photos and measurements."
+  },
+  "parts": {
+    "01_B_main_PROTOTYPE_x1": {
+      "valid": true,
+      "solid_count": 1,
+      "bounds_mm": [
+        153.5,
+        173.0,
+        134.0
+      ],
+      "volume_cm3": 136.581,
+      "centroid_mm": [
+        38.390281798265946,
+        76.77685618983948,
+        16.83852779817467
+      ]
+    },
+    "02_pressure_shoe_x2": {
+      "valid": true,
+      "solid_count": 1,
+      "bounds_mm": [
+        18.0,
+        24.0,
+        5.0
+      ],
+      "volume_cm3": 2.098,
+      "centroid_mm": [
+        -8.058970179598407e-16,
+        1.7166614075480003e-17,
+        2.5377889546753716
+      ]
+    },
+    "03_optional_fit_coupon_x1": {
+      "valid": true,
+      "solid_count": 1,
+      "bounds_mm": [
+        34.0,
+        26.0,
+        46.0
+      ],
+      "volume_cm3": 20.322,
+      "centroid_mm": [
+        2.048908637253413,
+        -2.7803669717507557e-16,
+        -15.661045876225357
+      ]
+    }
+  },
+  "collisions_mm3": {
+    "main_camera": 0.0,
+    "main_USB_assumed": 0.0,
+    "main_laptop_reference": 0.0,
+    "main_M3_shanks": 0.0,
+    "main_M5_shanks": 0.0,
+    "main_pressure_shoes": 0.0,
+    "main_M5_nuts": 0.0
+  },
+  "stl_export": {
+    "01_B_main_PROTOTYPE_x1": {
+      "raw_triangles": 20689,
+      "exported_triangles": 20682,
+      "removed_zero_area_slivers": 7,
+      "coordinate_rounding_mm": 1e-05
+    },
+    "02_pressure_shoe_x2": {
+      "raw_triangles": 740,
+      "exported_triangles": 740,
+      "removed_zero_area_slivers": 0,
+      "coordinate_rounding_mm": 1e-05
+    },
+    "03_optional_fit_coupon_x1": {
+      "raw_triangles": 784,
+      "exported_triangles": 784,
+      "removed_zero_area_slivers": 0,
+      "coordinate_rounding_mm": 1e-05
+    }
+  },
+  "not_verified": [
+    "actual EMF-16 surfaces/ports/vents/keyboard/feet",
+    "physical load, vibration, fatigue, creep and finish sensitivity",
+    "real plug/cable geometry",
+    "real optical FOV and mocap visibility/calibration",
+    "printer process and support removability"
+  ],
+  "camera_mount": {
+    "nominal_M3": "M3x10",
+    "nominal_printed_path": 7,
+    "nominal_washer": 1,
+    "nominal_protrusion": 2,
+    "required_measured_protrusion": [
+      1.8,
+      2.2
+    ],
+    "must_be_less_than": 3
+  },
+  "clamp": {
+    "pitch_mm": 72.0,
+    "stations_y_mm": [
+      88.0,
+      160.0
+    ],
+    "nut_pocket_entry": "TOP",
+    "nut_af_nominal_mm": 8,
+    "nut_thickness_nominal_mm": 4,
+    "nut_pocket_af_mm": 8.5,
+    "nut_support_floor_mm": 3.7,
+    "target_body_thickness_range_mm": [
+      8.0,
+      22.0
+    ],
+    "M5_nominal_under_knob_length_mm": 30,
+    "printed_internal_threads": false,
+    "range_checks": [
+      {
+        "body_thickness_mm": 8.0,
+        "shoe_above_lower_jaw_mm": 15.0,
+        "screw_beyond_nut_top_mm": 17.199999999999996,
+        "head_clearance_below_lower_jaw_mm": 5.0
+      },
+      {
+        "body_thickness_mm": 22.0,
+        "shoe_above_lower_jaw_mm": 1.0,
+        "screw_beyond_nut_top_mm": 3.1999999999999957,
+        "head_clearance_below_lower_jaw_mm": 19.0
+      }
+    ]
+  },
+  "marker_geometry": {
+    "face_centers_mm": [
+      [
+        22.0,
+        24.0,
+        56.0
+      ],
+      [
+        121.0,
+        19.0,
+        69.0
+      ],
+      [
+        27.0,
+        106.0,
+        79.0
+      ],
+      [
+        117.0,
+        102.0,
+        50.0
+      ],
+      [
+        72.0,
+        64.0,
+        94.0
+      ]
+    ],
+    "face_normals": [
+      [
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        1
+      ]
+    ],
+    "axis_spans_mm": [
+      99.0,
+      87.0,
+      44.0
+    ],
+    "rank": 3,
+    "svd_mm": [
+      95.28078163043433,
+      82.23069050331907,
+      34.520808090785394
+    ],
+    "smallest_largest_ratio": 0.3623060967812091,
+    "minimum_spacing_mm": 63.35613624582863,
+    "tetrahedra_mm3": {
+      "ABCD": 55598.167,
+      "ABCE": 26984.0,
+      "ABDE": 55907.667,
+      "ACDE": 51150.0,
+      "BCDE": 24475.5
+    },
+    "reference_ball_centers_mm": [
+      [
+        22.0,
+        24.0,
+        65.0
+      ],
+      [
+        121.0,
+        19.0,
+        78.0
+      ],
+      [
+        27.0,
+        106.0,
+        88.0
+      ],
+      [
+        117.0,
+        102.0,
+        59.0
+      ],
+      [
+        72.0,
+        64.0,
+        103.0
+      ]
+    ]
+  },
+  "load_illustration": {
+    "moment_Nm": 0.15,
+    "clamp_spacing_m": 0.072,
+    "equal_opposite_reaction_N": 2.0833333333333335,
+    "interpretation": "Only moment divided by clamp spacing; excludes local shell strength, friction, preload, dynamics and eccentric lateral torque. Not a rating or tightening force."
+  }
+}

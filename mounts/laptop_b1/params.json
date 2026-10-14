@@ -1,0 +1,76 @@
+{
+  "reference_laptop_width": 297.2,
+  "reference_laptop_depth": 218.4,
+  "reference_base_thickness": 12.0,
+  "reference_opening_angle_deg": 110.0,
+  "clamp_rear_y": 88.0,
+  "clamp_pitch": 72.0,
+  "clamp_width": 26.0,
+  "jaw_intrusion": 20.0,
+  "jaw_outer_x": 14.0,
+  "side_wall_inner_x": 4.0,
+  "upper_jaw_bottom_z": 2.0,
+  "upper_jaw_thickness": 6.0,
+  "lower_jaw_top_z": -30.0,
+  "lower_jaw_thickness": 8.0,
+  "pad_thickness": 2.0,
+  "contact_center_x": -10.0,
+  "contact_width_x": 18.0,
+  "contact_length_y": 24.0,
+  "shoe_thickness": 5.0,
+  "shoe_socket_d": 5.8,
+  "shoe_socket_depth": 2.0,
+  "M5_clearance_d": 5.6,
+  "nut_pocket_af": 8.5,
+  "nut_pocket_depth": 4.3,
+  "nut_af_nominal": 8.0,
+  "nut_thickness_nominal": 4.0,
+  "M5_under_knob_length": 30.0,
+  "main_spine_width": 10.0,
+  "main_spine_height": 12.0,
+  "mast_y": 64.0,
+  "camera_center_x": 70.0,
+  "camera_rear_y": 0.0,
+  "camera_hole_z": 36.0,
+  "camera_envelope_center_z": 36.075,
+  "camera_hole_spacing": 45.0,
+  "camera_boss_thickness": 1.0,
+  "camera_plate_thickness": 6.0,
+  "camera_clearance_d": 3.4,
+  "marker_seat_d": 25.0,
+  "marker_seat_thickness": 3.0,
+  "markers": [
+    [
+      22,
+      24,
+      56
+    ],
+    [
+      121,
+      19,
+      69
+    ],
+    [
+      27,
+      106,
+      79
+    ],
+    [
+      117,
+      102,
+      50
+    ],
+    [
+      72,
+      64,
+      94
+    ]
+  ],
+  "marker_reference_radius": 7.0,
+  "marker_reference_center_offset": 9.0,
+  "reference_body_thickness_range": [
+    8.0,
+    22.0
+  ],
+  "note": "ALL laptop geometry is illustrative. Base thickness 12 mm is not a measured EMF-16 dimension. Clamp station/contact footprints, lid angle, vents and ports require photos and measurements."
+}
