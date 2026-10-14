@@ -1,3 +1,0 @@
-# Versions available for release-time validation; use a separate virtual environment.
-cadquery==2.7.0
-numpy==2.3.5
