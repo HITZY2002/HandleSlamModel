@@ -8,9 +8,9 @@
 | [单手空间动捕架](mounts/single_hand_spatial_v2) | v2 · 2026-10-10 | 5种，共打印9件；主框架154.4×157×20 mm | 单手握柄与5个可换点座；待实物验证的空间点阵原型 |
 | [笔记本 B1 双夹](mounts/laptop_b1) | B1 · 2026-10-11 | 3种；主件1、压脚2，另有可选试片；主件153.5×173×134 mm | 面向MateBook EMF-16的D435i夹架；尚未实装精配 |
 
-## 双手款：6种自制适配件
+## 双手款：整体装配预览
 
-![双手款自制零件实际STL预览](images/dual_hand_custom_parts.jpg)
+![双手Livox改装整体装配预览](images/dual_hand_custom_parts.jpg)
 
 ## 单手款：空间动捕架 v2
 
